@@ -1,0 +1,56 @@
+.navbar{
+  margin-top :100px; 
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 70%;
+    height: 10%;
+    display: inline;
+    position: fixed;
+}
+.navbar h1{
+  color: #111;
+}
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 200;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+    color:#999;
+
+}
+
+.navbar img{
+    width:300;
+    float: right;
+}
+
+.movie_navbar{
+  text-align: left;
+}
+.movie_navbar li{
+  display: inline;
+  text-align: left;
+  padding-right:10px;
+  
+}
+
+.con{
+  margin-left: 40px;
+}
